@@ -91,8 +91,11 @@ class Vehicle:
         self.vel += steering
         
         # Clamp velocity to the target speed
-        if abs(self.target_speed) > 0 and self.vel.length() > abs(self.target_speed):
-            self.vel.scale_to_length(abs(self.target_speed))
+        if abs(self.target_speed) > 0.01:  # Don't try to scale to zero!
+            if self.vel.length() > abs(self.target_speed):
+                self.vel.scale_to_length(abs(self.target_speed))
+            elif self.vel.length() < 0.01:
+                self.vel = pygame.math.Vector2(0, 0) # Just set to zero directly
             
         self.pos += self.vel * dt
         
