@@ -20,7 +20,7 @@ Figure 2: A snapshot of the current version of the app: RaceTrack Generator, ver
 
 The main application is provided as a standalone Windows executable for Windwos 10 and over. You don't need Python installed to use it!
 
-**[⬇️ Download TrackDesigner.exe](https://drive.google.com/file/d/1C3x2QA_ddOBRKkr11NBcINAHK4yGuyWh/view?usp=sharing)**
+**[⬇️ Download TrackDesigner.exe](https://drive.google.com/file/d/1iCnKoSJyDbjapWg3yZ20hHN7i9bz8D4q/view?usp=sharing)**
 
 1. Download the `.exe` file.
 2. Double-click to run.
