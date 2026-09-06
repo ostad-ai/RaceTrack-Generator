@@ -105,4 +105,3 @@ If RaceTrack Generator helps you build your dream racing game, please consider s
 Developed by Hamed Shah-Hosseini, under the Veis star (with lots of virtual chai). ☕
 
 Built with Math, Pygame, and a passion for game development.
-```
